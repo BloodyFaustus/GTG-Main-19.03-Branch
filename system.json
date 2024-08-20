@@ -1,7 +1,7 @@
 {
   "id": "starwarsffg",
-  "title": "Star Wars FFG",
-  "description": "A system for playing Star Wars FFG games.",
+  "title": "Gundam Tabletop Game: GTG",
+  "description": "A system for playing Gundam Tabletop games.",
   "version": "1.903",
   "compatibility": {
     "minimum": 12,
