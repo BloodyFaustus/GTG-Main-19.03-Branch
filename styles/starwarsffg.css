@@ -2961,3 +2961,23 @@ img {
 .starwarsffg.sheet.item .item-sheet-career .signatureability-pill.item-pill2 .item-delete, .starwarsffg.sheet.item .item-sheet-career .specialization-pill.item-pill2 .item-delete {
   cursor: pointer;
 }
+
+.starwarsffg.sheet.actor .tab.downtime {
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.starwarsffg.sheet.actor .tab.downtime h2 {
+  margin-bottom: 20px;
+}
+
+.starwarsffg.sheet.actor .tab.downtime label {
+  font-weight: bold;
+}
+
+.starwarsffg.sheet.actor .tab.downtime input[type="number"],
+.starwarsffg.sheet.actor .tab.downtime textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
