@@ -357,4 +357,40 @@
       {{/if}}
     </div>
   </section>
+
+<div class="tab downtime" data-group="primary" data-tab="downtime">
+  <h2>Downtime</h2>
+  <div class="grid grid-2col">
+    <!-- Downtime Section -->
+    <div>
+      <label for="data.downtime.usage">Downtime Usage</label>
+      <textarea name="data.downtime.usage">{{data.downtime.usage}}</textarea>
+    </div>
+
+    <!-- REQ Section -->
+    <div>
+      <label for="data.resources.req">REQ</label>
+      <input type="number" name="data.resources.req" value="{{data.resources.req}}" data-dtype="Number">
+    </div>
+
+    <!-- Purchases Section -->
+    <div>
+      <label for="data.resources.purchases">Purchases</label>
+      <textarea name="data.resources.purchases">{{data.resources.purchases}}</textarea>
+    </div>
+
+    <!-- EF Section -->
+    <div>
+      <label for="data.resources.ef">EF</label>
+      <input type="number" name="data.resources.ef" value="{{data.resources.ef}}" data-dtype="Number">
+    </div>
+  </div>
+</div>
+</form>
+
+        {{> "systems/starwarsffg/templates/parts/shared/ffg-block.html" (object blocktype="full" title="SWFFG.EmotionalWeakness" type="PopoutEditor" name="data.morality.weakness" value=data.morality.weakness)}}
+      </div>
+      {{/if}}
+    </div>
+  </section>
 </form>
