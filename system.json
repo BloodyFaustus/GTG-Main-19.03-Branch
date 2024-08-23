@@ -439,6 +439,6 @@
     "secondaryTokenAttribute": "strain",
     "url": "https://github.com/StarWarsFoundryVTT/StarWarsFFG",
     "manifest": "https://raw.githubusercontent.com/BloodyFaustus/GTG-Main-19.03-Branch/main/system.json",
-    "download": "https://github.com/BloodyFaustus/GTG-Main-19.03-Branch/releases/download/Yolo/GTG-Main-19.03-Branch-main.zip",
+    "download": "https://github.com/BloodyFaustus/GTG-Main-19.03-Branch/releases/download/Base/GTG-Main-19.03-Branch-main.zip",
     "license": "LICENSE.txt"
 }
